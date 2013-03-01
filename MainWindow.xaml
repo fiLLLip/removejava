@@ -1,0 +1,12 @@
+﻿<Window x:Class="RemoveJava.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RemoveJava.com" Height="393" Width="392" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" Closing="Window_Closing_1" Icon="icon.png">
+    <Grid Width="369">
+        <Label Content="Developed by RemoveJava.com" Height="28" HorizontalAlignment="Left" Margin="191.923,327,0,0" Name="label1" VerticalAlignment="Top" Foreground="#FF959595" />
+        <Button Content="Remove Java components" Height="81" HorizontalAlignment="Left" Margin="0,217.5,0,0" Name="btnDeleteJava" VerticalAlignment="Top" Width="369" Click="btnDeleteJava_Click" FontWeight="Bold" FontSize="24" />
+        <Image HorizontalAlignment="Left" Height="205.5" Margin="0,7,0,0" VerticalAlignment="Top" Width="369" Source="move-to-trash.png"/>
+        <Label Content="You will be asked to confirm uninstalling each component." Height="28" HorizontalAlignment="Left" Margin="0,303.5,0,0" x:Name="label1_Copy" VerticalAlignment="Top" Width="369" HorizontalContentAlignment="Center" FontSize="14" />
+        <TextBlock Height="365" HorizontalAlignment="Center" x:Name="lblPleaseWait" VerticalAlignment="Center" Width="369" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Normal" FontSize="32" Padding="0,80,0,0" Background="#9FFFFFFF" Visibility="Hidden" ><Run/><LineBreak/><Run Text="Please wait, the program is working."/></TextBlock>
+    </Grid>
+</Window>
