@@ -1,4 +1,4 @@
-removejava
+Remove Java components
 ==========
 
-Removes all Java installations on your Windows computer
+Removes all Java installations and components from your Windows computer
